@@ -8,8 +8,9 @@ var express     = require('express')
   , routes      = require('./routes')
   , PORT        = process.env.PORT || 3000
   , API_STRING  = '/api/v0'
-  , BASE_URL    = process.env.BASE_URL || process.env.BASE_CALLBACK_URL || "http://localhost:"+PORT
-  //'http://gistapi-neo4j.herokuapp.com' 
+  , BASE_URL    = 'http://graphgist-cms-api.herokuapp.com' 
+  //process.env.BASE_URL || process.env.BASE_CALLBACK_URL || "http://localhost:"+PORT
+   
   , app         = express()
   , subpath     = express();
 

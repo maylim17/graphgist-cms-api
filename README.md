@@ -33,7 +33,7 @@ clone
 npm install
 have a neo4j server up at localhost:7474 or NEO4J_URL specified in .env
 node app.js
-http://localhost:3000/docs
+http://graphgist-cms-api.herokuapp.com/docs
 
 
 TODO
